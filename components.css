@@ -1,0 +1,87 @@
+.btn{
+    background: #ff5441;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 20px;
+    width: 240px;
+    max-width: 100%;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .02em;
+    box-shadow: 0 0 38px 0 rgba(212,66,50,0.8);
+}
+.btn:hover{
+    background: #ec4b38;
+}
+.btn:active{
+    opacity: 0.8;
+    transform: scale(.95);
+}
+.container{
+    padding: 0 15px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.phone_item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #fff;
+    padding: 8px 16px;
+    border-radius: 21px;
+    transition: all .2s;
+}
+.phone_item:hover{
+    color: #1f1f1f;
+    background: #fff;
+}
+.phone_item:active{
+    opacity: 0.8;
+}
+.btn-menu{
+    background: none;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    border: 0;
+}
+.btn-menu_box{
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+}
+.btn-menu_inner::before,
+.btn-menu_inner::after,
+.btn-menu_inner{
+    background: #fff;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+}
+.btn-menu_inner{
+    display: block;
+    top: 50%;
+    position: relative;
+}
+.btn-menu_inner::before,
+.btn-menu_inner::after{
+    content: '';
+    position: absolute;
+    left: 0;
+}
+.btn-menu_inner::before{
+    top: -10px;
+}
+.btn-menu_inner::after{
+    top: -10px;
+}
